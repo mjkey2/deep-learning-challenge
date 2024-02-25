@@ -1,28 +1,29 @@
-Module 21 Deep Learning						Michael Marentes 2/24/24
+Module 21 Deep Learning								Michael Marentes 2/24/24
 Charity Funding Predictor
 
-Overview: The goal of this project is to create an algorithm using machine learning and by neural networks to predict whether applicants will be successful if funded by the fictional non-profit foundating, Alphabet Soup.
-
+Overview: The goal of this project is to create an algorithm using machine learning and by neural networks to predict whether applicants will be successful or not when funded by the fictional non-profit foundating, Alphabet Soup.
 
 Results:
 
-	Data Processing:
-	What variables are the targets for your model?
-		The targets for my model were
+Data Processing:
+What variables are the targets for your model?
+The targets for my model were the IS_SUCCESSFUL column from application_df, generically giving us binary feedback on whether the applicants had a successful funding or not.
 
-	What variable(s) are the features for your model?
-		The features for my model were
+What variable(s) are the features for your model?
+The feature variables are every other column from application_df but IS_SUCCESSFUL. This was defined by dropping the 'IS_SUCCESSFUL' column from the original dataframe.
 
-	What variable(s) should be removed from the input data because they are neither targets nor features?
-		The variables I removed from the input data were because
+What variable(s) should be removed from the input data because they are neither targets nor features?
+I dropped the EIN, NAME, STATUS, and SPECIAL_CONSIDERATIONS columns as they were non beneficial to the features or the targets. 
 
 
-	Compiling, training and evalutating:
-	How many neurons, layers, and activation functions did you select for your neural network model, and why?
-		
-	Were you able to achieve the target model performance?
-		
-	What steps did you take in your attempts to increase model performance?
-		
+Compiling, training and evalutating:
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+For the first attempt, I used 8 hidden nodes for layer1 and 5 hidden nodes for layer2. This is the default value I give to my models in which I can iterate upon later.
+	
+Were you able to achieve the target model performance?
+I was not. In fact, the more I re-ran the models, the lower my accuracy performance was with each iteration.
+
+What steps did you take in your attempts to increase model performance?
+
 
 Summary:
