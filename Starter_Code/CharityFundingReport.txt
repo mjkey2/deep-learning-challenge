@@ -1,7 +1,7 @@
 Module 21 Deep Learning						Michael Marentes 2/24/24
 Charity Funding Predictor
 
-Overview: Wah wah wah
+Overview: The goal of this project is to create an algorithm using machine learning and by neural networks to predict whether applicants will be successful if funded by the fictional non-profit foundating, Alphabet Soup.
 
 
 Results:
