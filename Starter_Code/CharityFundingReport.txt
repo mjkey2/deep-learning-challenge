@@ -1,0 +1,28 @@
+Module 21 Deep Learning						Michael Marentes 2/24/24
+Charity Funding Predictor
+
+Overview: Wah wah wah
+
+
+Results:
+
+	Data Processing:
+	What variables are the targets for your model?
+		The targets for my model were
+
+	What variable(s) are the features for your model?
+		The features for my model were
+
+	What variable(s) should be removed from the input data because they are neither targets nor features?
+		The variables I removed from the input data were because
+
+
+	Compiling, training and evalutating:
+	How many neurons, layers, and activation functions did you select for your neural network model, and why?
+		
+	Were you able to achieve the target model performance?
+		
+	What steps did you take in your attempts to increase model performance?
+		
+
+Summary:
